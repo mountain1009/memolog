@@ -6,7 +6,7 @@ const GlobalStyle = () => (
             `
         body {
           font-family: 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
-          font-size: 14px;
+          font-size: 16px;
           line-height: 1.2;
           margin: 0;
           display: block;
@@ -14,6 +14,14 @@ const GlobalStyle = () => (
         li{
           list-style-type: none;
         }
+        p {
+            display: block;
+            margin-block-start: inherit;
+            margin-block-end: inherit;
+            margin-inline-start: inherit;
+            margin-inline-end: inherit;
+            color: white;
+}
       `
         }
     </style>
